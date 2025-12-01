@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nyarap/static/css/main.092dec80.css",
+    "main.js": "/nyarap/static/js/main.3980ba19.js",
+    "index.html": "/nyarap/index.html",
+    "main.092dec80.css.map": "/nyarap/static/css/main.092dec80.css.map",
+    "main.3980ba19.js.map": "/nyarap/static/js/main.3980ba19.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.092dec80.css",
+    "static/js/main.3980ba19.js"
+  ]
+}
