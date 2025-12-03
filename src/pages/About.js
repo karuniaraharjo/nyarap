@@ -18,7 +18,7 @@ const About = () => {
           </span>
           <h1 className="text-4xl md:text-5xl font-heading font-bold text-nyarap-dark mb-6">
             Lebih Dari Sekadar{" "}
-            <span className="text-nyarap-orange">Nasi Uduk</span>
+            <span className="text-nyarap-orange">Nasi Megono</span>
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
             Berawal dari gerobak kecil di sudut jalan, kini kami hadir untuk
