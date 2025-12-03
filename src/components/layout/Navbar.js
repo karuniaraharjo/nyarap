@@ -50,7 +50,7 @@ const Navbar = () => {
               </Link>
             ))}
             {/* CTA Button di Navbar */}
-            <Button variant="primary" size="sm" className="px-5 py-2 text-sm" href="https://wa.me/6281234567890">
+            <Button variant="primary" size="sm" className="px-5 py-2 text-sm" href="https://wa.me/6281548211361">
               Pesan Sekarang
             </Button>
           </div>
@@ -84,7 +84,7 @@ const Navbar = () => {
                 {link.name}
               </Link>
             ))}
-             <Button variant="primary" className="w-full justify-center" href="https://wa.me/6281234567890">
+             <Button variant="primary" className="w-full justify-center" href="https://wa.me/6281548211361">
               Pesan via WA
             </Button>
           </div>

@@ -1,5 +1,3 @@
-// src/data/menu.js
-
 /**
  * Data Menu Makanan Warung Sarapan "Nyarap"
  * Harga menggunakan Rupiah (IDR).
@@ -12,14 +10,19 @@
  * @property {string} imagePlaceholder - Placeholder untuk gambar dari Unsplash.
  */
 
+import nasiMegono from '../assets/images/megono.webp';
+import bubur from '../assets/images/bubur.webp';
+import ketan from '../assets/images/ketan.webp';
+import kopi from '../assets/images/kopi.webp';
+
 const menuData = [
     {
         id: 1,
-        name: "Nasi Uduk Spesial Nyarap",
-        description: "Nasi uduk harum dengan lauk ayam suwir, telur dadar, dan sambal terasi.",
+        name: "Nasi Megono Spesial Nyarap",
+        description: "Sajian klasik nangka muda berbumbu di atas nasi hangat khas Batang. Sebuah kemewahan rasa tradisional yang menenangkan hati.",
         price: 18000,
         category: "Nasi",
-        imagePlaceholder: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&h=400&q=80"
+        imagePlaceholder: nasiMegono
     },
     {
         id: 2,
@@ -27,15 +30,15 @@ const menuData = [
         description: "Bubur lembut dengan topping ayam cincang, kerupuk, dan cakwe renyah.",
         price: 15000,
         category: "Nasi",
-        imagePlaceholder: "https://images.unsplash.com/photo-1610970637651-7f85acb621e2?w=600&h=400&q=80"
+        imagePlaceholder: bubur
     },
     {
         id: 3,
-        name: "Roti Bakar Keju Meleleh",
-        description: "Roti tebal dibakar dengan isian keju cheddar dan susu kental manis.",
+        name: "Ketan Sutra Wangi",
+        description: "Butiran ketan pilihan yang diolah menjadi tekstur selembut sutra, menghadirkan aroma wangi yang memikat. Sebuah pengalaman kuliner yang halus dan berkesan.",
         price: 12000,
-        category: "Roti",
-        imagePlaceholder: "https://images.unsplash.com/photo-1551631528-769a6858e99a?w=600&h=400&q=80"
+        category: "Ketan",
+        imagePlaceholder: ketan
     },
     {
         id: 4,
@@ -43,7 +46,7 @@ const menuData = [
         description: "Paduan kopi robusta lokal dan susu segar, mantap buat mulai hari.",
         price: 10000,
         category: "Minuman",
-        imagePlaceholder: "https://images.unsplash.com/photo-1509787163014-cb91924618e2?w=600&h=400&q=80"
+        imagePlaceholder: kopi
     },
     // ... Tambahkan menu lain sesuai kebutuhan
 ];

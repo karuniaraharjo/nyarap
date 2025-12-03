@@ -2,6 +2,7 @@ import React from 'react';
 import { ArrowRight, Star, MapPin } from 'lucide-react';
 import Button from '../components/ui/Button';
 import MenuCard from '../components/ui/MenuCard';
+import gambar from '../assets/images/nasi-megono.webp';
 
 // Import Data Dummy
 import menuData from '../data/menu'; 
@@ -19,7 +20,7 @@ const Home = () => {
         {/* Background Blob Decoration (Opsional aesthetic) */}
         <div className="absolute top-0 right-0 w-1/2 h-full bg-orange-100/50 rounded-l-full translate-x-1/3 blur-3xl -z-10"></div>
 
-        <div className="container mx-auto px-4 md:px-8 grid md:grid-cols-2 gap-12 items-center">
+        <div className="container mt-3 mx-auto px-4 md:px-8 grid md:grid-cols-2 gap-12 items-center">
           {/* Text Content */}
           <div className="space-y-6 animate-fade-in-up">
             <span className="inline-block px-4 py-2 bg-orange-100 text-nyarap-orange rounded-full font-bold text-sm tracking-wide">
@@ -53,9 +54,9 @@ const Home = () => {
           </div>
 
           {/* Hero Image */}
-          <div className="relative">
+          <div className="relative mb-20">
              <img 
-               src="https://images.unsplash.com/photo-1598214886806-c87b84b7078b?w=800&q=80" 
+               src={gambar}
                alt="Sarapan Enak" 
                className="rounded-3xl shadow-2xl rotate-2 hover:rotate-0 transition-all duration-500 border-8 border-white"
              />
@@ -64,7 +65,7 @@ const Home = () => {
                <div className="bg-green-100 p-2 rounded-full text-green-600"><MapPin size={24}/></div>
                <div>
                  <p className="text-xs text-gray-500">Lokasi Kami</p>
-                 <p className="font-bold text-nyarap-dark">Kota Sarapan, Jateng</p>
+                 <p className="font-bold text-nyarap-dark">Kota Batang, Jateng</p>
                </div>
              </div>
           </div>
@@ -72,7 +73,7 @@ const Home = () => {
       </section>
 
       {/* 2. HIGHLIGHT MENU SECTION */}
-      <section className="py-20 container mx-auto px-4 md:px-8">
+      <section className="py-10 container mx-auto px-4 md:px-8">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">Menu Favorit <span className="text-nyarap-orange">Pagi Ini</span></h2>
           <p className="text-nyarap-muted">Menu sarapan best-seller yang paling sering dipesan oleh pelanggan setia kami.</p>
@@ -130,7 +131,7 @@ const Home = () => {
               Jangan biarkan perut kosong mengganggu produktivitasmu. Pesan sekarang, kami siapkan yang hangat buat kamu.
             </p>
             <div className="flex flex-col md:flex-row gap-4 justify-center pt-4">
-               <Button href="https://wa.me/6281234567890" variant="primary" className="bg-nyarap-orange border-none">
+               <Button href="https://wa.me/6281548211361" variant="primary" className="bg-nyarap-orange border-none">
                  Pesan Lewat WhatsApp
                </Button>
                {/* Form Kritik Saran Sederhana */}

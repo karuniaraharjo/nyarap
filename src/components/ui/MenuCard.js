@@ -19,7 +19,7 @@ const MenuCard = ({ item }) => {
           alt={item.name} 
           className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
         />
-        <div className="absolute top-3 right-3 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-sm font-bold text-nyarap-orange shadow-sm">
+        <div className="absolute top-3 right-2 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-sm font-bold text-nyarap-orange shadow-sm">
           {priceFormatted}
         </div>
       </div>

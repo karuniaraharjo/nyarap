@@ -1,6 +1,8 @@
 import React from "react";
 import teamData from "../data/team";
 import { Heart, ShieldCheck, Clock } from "lucide-react";
+import fotoSuasana from '../assets/images/suasana.webp';
+import bahan from '../assets/images/bahan.webp';
 
 const About = () => {
   return (
@@ -32,12 +34,12 @@ const About = () => {
           {/* Image Grid */}
           <div className="grid grid-cols-2 gap-4">
             <img
-              src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=400&h=500&fit=crop"
+              src={fotoSuasana}
               alt="Dapur Nyarap"
               className="rounded-2xl w-full h-full object-cover translate-y-8 shadow-lg"
             />
             <img
-              src="https://images.unsplash.com/photo-1542838132-92c53300491e?w=400&h=500&fit=crop"
+              src={bahan}
               alt="Suasana Warung"
               className="rounded-2xl w-full h-full object-cover shadow-lg"
             />
@@ -55,7 +57,7 @@ const About = () => {
               seharian ditentukan oleh suapan pertama di pagi hari.
             </p>
             <p className="text-gray-600 leading-relaxed">
-              Didirikan tahun 2020 oleh Bu Siti, kami memegang teguh prinsip:{" "}
+              Didirikan tahun 2012 oleh Bu Seh, kami memegang teguh prinsip:{" "}
               <em>"Masakan rumah, harga ramah."</em> Semua bumbu kami ulek
               sendiri, santan kami peras segar setiap jam 3 pagi, dan senyum
               kami selalu gratis untuk Anda.
@@ -64,7 +66,7 @@ const About = () => {
             {/* Stats Kecil */}
             <div className="grid grid-cols-3 gap-4 pt-4 border-t border-gray-100">
               <div>
-                <h4 className="text-2xl font-bold text-nyarap-orange">5+</h4>
+                <h4 className="text-2xl font-bold text-nyarap-orange">13+</h4>
                 <p className="text-xs text-gray-500">Tahun Berdiri</p>
               </div>
               <div>
@@ -73,7 +75,7 @@ const About = () => {
               </div>
               <div>
                 <h4 className="text-2xl font-bold text-nyarap-orange">100%</h4>
-                <p className="text-xs text-gray-500">Halal & Toyyib</p>
+                <p className="text-xs text-gray-500">Halalan Thayyiban</p>
               </div>
             </div>
           </div>

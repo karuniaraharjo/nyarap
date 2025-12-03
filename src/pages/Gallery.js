@@ -1,46 +1,7 @@
 import React from 'react';
 import { Instagram, ExternalLink, Camera } from 'lucide-react';
 import Button from '../components/ui/Button';
-
-// Data Dummy khusus Galeri (Langsung di file ini agar praktis)
-const galleryItems = [
-  {
-    id: 1,
-    image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
-    caption: "Suasana pagi yang sibuk di dapur Nyarap",
-    size: "large" // Foto besar
-  },
-  {
-    id: 2,
-    image: "https://images.unsplash.com/photo-1529312266912-b33cf6227e2f?w=600&q=80",
-    caption: "Kopi susu gula aren best seller!",
-    size: "small"
-  },
-  {
-    id: 3,
-    image: "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=600&q=80",
-    caption: "Nasi uduk komplit siap santap",
-    size: "small"
-  },
-  {
-    id: 4,
-    image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600&q=80",
-    caption: "Senyum ramah Mbak Rara menyambut pelanggan",
-    size: "tall" // Foto tinggi (portrait)
-  },
-  {
-    id: 5,
-    image: "https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=600&q=80",
-    caption: "Roti bakar keju lumer abis",
-    size: "small"
-  },
-  {
-    id: 6,
-    image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&q=80",
-    caption: "Proses roasting biji kopi pilihan",
-    size: "small"
-  },
-];
+import galleryData from '../data/gallery';
 
 const Gallery = () => {
   return (
@@ -63,7 +24,7 @@ const Gallery = () => {
       <div className="container mx-auto px-4 md:px-8 pb-20">
         <div className="grid grid-cols-1 md:grid-cols-4 auto-rows-[200px] gap-4">
           
-          {galleryItems.map((item) => (
+          {galleryData.map((item) => (
             <a 
               key={item.id}
               href="https://instagram.com" // Ganti dengan link IG asli
@@ -73,6 +34,7 @@ const Gallery = () => {
                 // Logika Grid Asimetris (Tailwind Classes)
                 item.size === 'large' ? 'md:col-span-2 md:row-span-2' : 
                 item.size === 'tall' ? 'md:col-span-1 md:row-span-2' : 
+                item.size === 'wide' ? 'md:col-span-2 md:row-span-1' :
                 'md:col-span-1 md:row-span-1'
               }`}
             >
@@ -101,7 +63,7 @@ const Gallery = () => {
         <div className="text-center mt-12 bg-orange-50 rounded-2xl p-8 max-w-2xl mx-auto border border-orange-100 border-dashed">
           <h3 className="text-xl font-bold text-nyarap-dark mb-2">Punya Foto Keren Saat Nyarap?</h3>
           <p className="text-gray-600 mb-6">Tag kami di Instagram <strong>@warungnyarap</strong> dan dapatkan diskon 10% untuk kunjungan berikutnya!</p>
-          <Button href="https://instagram.com" variant="outline" className="gap-2">
+          <Button href="https://instagram.com/runz.js" variant="outline" className="gap-2">
             <Instagram size={18}/> Follow Instagram Kami
           </Button>
         </div>

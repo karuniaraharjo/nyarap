@@ -36,15 +36,15 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-slate-300">
                 <MapPin className="text-nyarap-orange flex-shrink-0" size={20} />
-                <span>Jl. Pagi Ceria No. 88, Kota Sarapan, Jawa Tengah</span>
+                <span>Precil, Tegalsari, Kec. Kandeman, Kabupaten Batang, Jawa Tengah</span>
               </li>
               <li className="flex items-center gap-3 text-slate-300">
                 <Phone className="text-nyarap-orange flex-shrink-0" size={20} />
-                <span>+62 812-3456-7890</span>
+                <span>+62 815-4821-1361</span>
               </li>
               <li className="flex gap-4 mt-4">
-                <a href="h" className="bg-slate-700 p-2 rounded-full hover:bg-nyarap-orange transition"><Instagram size={20}/></a>
-                <a href="h" className="bg-slate-700 p-2 rounded-full hover:bg-nyarap-orange transition"><Facebook size={20}/></a>
+                <a href="https://www.instagram.com/runz.js" target='blank' className="bg-slate-700 p-2 rounded-full hover:bg-nyarap-orange transition"><Instagram size={20}/></a>
+                <a href="http://instagram.com/runz.js" target="blank" className="bg-slate-700 p-2 rounded-full hover:bg-nyarap-orange transition"><Facebook size={20}/></a>
               </li>
             </ul>
           </div>

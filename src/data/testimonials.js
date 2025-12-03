@@ -1,5 +1,3 @@
-// src/data/testimonials.js
-
 /**
  * Data Testimoni Pelanggan
  * @typedef {Object} Testimonial
@@ -16,7 +14,7 @@ const testimonialsData = [
         id: 1,
         name: "Budi Santoso",
         role: "Karyawan Swasta",
-        content: "Nyarap di sini wajib banget sebelum ngantor! Nasi uduknya pulen, sambalnya nendang. Bikin melek!",
+        content: "Nyarap di sini wajib banget sebelum ngantor! Nasi megononya pulen, sambalnya nendang. Bikin melek!",
         rating: 5,
         avatar: "https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=100&h=100&q=80&fit=crop"
     },
@@ -24,7 +22,7 @@ const testimonialsData = [
         id: 2,
         name: "Siska Pratiwi",
         role: "Mahasiswi",
-        content: "Harganya pas di kantong mahasiswa. Roti bakarnya juara, kejunya melimpah ruah nggak pelit.",
+        content: "Harganya pas di kantong mahasiswa. Ketan Sutra Wanginya juara, kejunya melimpah ruah nggak pelit.",
         rating: 5,
         avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&q=80&fit=crop"
     },
