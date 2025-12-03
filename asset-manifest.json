@@ -1,13 +1,24 @@
 {
   "files": {
-    "main.css": "/nyarap/static/css/main.092dec80.css",
-    "main.js": "/nyarap/static/js/main.3980ba19.js",
+    "main.css": "/nyarap/static/css/main.a69f18a7.css",
+    "main.js": "/nyarap/static/js/main.cd9a5eb6.js",
+    "static/media/suasana.webp": "/nyarap/static/media/suasana.b980d08655bfe0987d62.webp",
+    "static/media/kopi.webp": "/nyarap/static/media/kopi.909f388733f7623e05cf.webp",
+    "static/media/bu-seh.webp": "/nyarap/static/media/bu-seh.4afde0cd523d3609c290.webp",
+    "static/media/ketan.webp": "/nyarap/static/media/ketan.4ce3380a7964181a6fb9.webp",
+    "static/media/bahan.webp": "/nyarap/static/media/bahan.6d6021ff61a63be49b92.webp",
+    "static/media/pak-ipan.webp": "/nyarap/static/media/pak-ipan.45e9636fee4c9a1bc0b9.webp",
+    "static/media/pisang.webp": "/nyarap/static/media/pisang.981d997de48399f140ac.webp",
+    "static/media/mas-arun.webp": "/nyarap/static/media/mas-arun.31870d05f1354a93de37.webp",
+    "static/media/megono.webp": "/nyarap/static/media/megono.5d1dd6a667f26e5d07eb.webp",
+    "static/media/bubur.webp": "/nyarap/static/media/bubur.f27569bb82d9c50f12f5.webp",
+    "static/media/nasi-megono.webp": "/nyarap/static/media/nasi-megono.681d08fd258f19f1621d.webp",
     "index.html": "/nyarap/index.html",
-    "main.092dec80.css.map": "/nyarap/static/css/main.092dec80.css.map",
-    "main.3980ba19.js.map": "/nyarap/static/js/main.3980ba19.js.map"
+    "main.a69f18a7.css.map": "/nyarap/static/css/main.a69f18a7.css.map",
+    "main.cd9a5eb6.js.map": "/nyarap/static/js/main.cd9a5eb6.js.map"
   },
   "entrypoints": [
-    "static/css/main.092dec80.css",
-    "static/js/main.3980ba19.js"
+    "static/css/main.a69f18a7.css",
+    "static/js/main.cd9a5eb6.js"
   ]
 }
