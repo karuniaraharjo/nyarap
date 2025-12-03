@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nyarap/static/css/main.a69f18a7.css",
-    "main.js": "/nyarap/static/js/main.cd9a5eb6.js",
+    "main.js": "/nyarap/static/js/main.1707e6cf.js",
     "static/media/suasana.webp": "/nyarap/static/media/suasana.b980d08655bfe0987d62.webp",
     "static/media/kopi.webp": "/nyarap/static/media/kopi.909f388733f7623e05cf.webp",
     "static/media/bu-seh.webp": "/nyarap/static/media/bu-seh.4afde0cd523d3609c290.webp",
@@ -15,10 +15,10 @@
     "static/media/nasi-megono.webp": "/nyarap/static/media/nasi-megono.681d08fd258f19f1621d.webp",
     "index.html": "/nyarap/index.html",
     "main.a69f18a7.css.map": "/nyarap/static/css/main.a69f18a7.css.map",
-    "main.cd9a5eb6.js.map": "/nyarap/static/js/main.cd9a5eb6.js.map"
+    "main.1707e6cf.js.map": "/nyarap/static/js/main.1707e6cf.js.map"
   },
   "entrypoints": [
     "static/css/main.a69f18a7.css",
-    "static/js/main.cd9a5eb6.js"
+    "static/js/main.1707e6cf.js"
   ]
 }
