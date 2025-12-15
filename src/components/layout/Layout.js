@@ -14,7 +14,6 @@ const Layout = ({ children }) => {
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />
-      {/* pt-20 ditambahkan agar konten tidak tertutup Navbar yang fixed */}
       <main className="flex-grow pt-20">
         {children}
       </main>

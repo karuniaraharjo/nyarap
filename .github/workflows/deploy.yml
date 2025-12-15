@@ -2,7 +2,7 @@ name: Build and Deploy
 on:
   push:
     branches:
-      - main  # Atau 'master', sesuaikan dengan nama branch utama Anda
+      - main
 
 permissions:
   contents: write
@@ -23,4 +23,4 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: build # Folder hasil build React
+          folder: build

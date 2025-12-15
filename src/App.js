@@ -22,7 +22,7 @@ function App() {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/contact" element={<Contact />} />
           
-          {/* Halaman 404 (Opsional: Redirect ke home jika halaman tidak ada) */}
+          {/* Halaman 404 */}
           <Route path="*" element={<div className="text-center py-20 text-5xl">404. Halaman tidak ditemukan</div>} />
         </Routes>
       </Layout>
